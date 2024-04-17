@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    
+}
+.main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main2
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.submit
+{
+    padding: 10px 30px;
+    font-size: medium;
+    background-color: rgb(143, 230, 109);
+    border-radius: 20px;
+    /* margin-top: -15px;
+    margin-bottom: -20px; */
+    margin-left: 22vw;
+}
+.output
+{
+    margin-left: 16vw;
+}
+.text
+{
+    padding: 5px;
+    border-radius: 10px;
+}
+/* .box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+} */

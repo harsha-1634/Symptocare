@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>startup</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading">Symptocare</h1>
+        <form action ="/login" method = "post">
+            <div class="main2">
+                <div class="box">
+                <p>symptom1</p>
+                <p><input class="text" type ="text" name ="symptom1"/></p>
+                <p>symptom2</p>
+                <p><input class="text" type ="text" name ="symptom2"/></p>
+                <p>symptom3</p>
+                <p><input class="text" type ="text" name ="symptom3"/></p>
+                <p>symptom4</p>
+                <p><input class="text" type ="text" name ="symptom4"/></p>
+                <p>symptom5</p>
+                <p><input class="text" type ="text" name ="symptom5"/></p>
+                <p>symptom6</p>
+                <p><input class="text" type ="text" name ="symptom6"/></p>
+                </div>
+                <div class="box">
+                <p>symptom7</p>
+                <p><input class="text" type ="text" name ="symptom7"/></p>
+                <p>symptom8</p>
+                <p><input class="text" type ="text" name ="symptom8"/></p>
+                <p>symptom9</p>
+                <p><input class="text" type ="text" name ="symptom9"/></p>
+                <p>symptom10</p>
+                <p><input class="text" type ="text" name ="symptom10"/></p>
+                <p>symptom11</p>
+                <p><input class="text" type ="text" name ="symptom11"/></p>
+                <p>symptom12</p>
+                <p><input class="text" type ="text" name ="symptom12"/></p>
+                </div>
+                <div class="box">
+                <p>symptom13</p>
+                <p><input class="text" type ="text" name ="symptom13"/></p>
+                <p>symptom14</p>
+                <p><input class="text" type ="text" name ="symptom14"/></p>
+                <p>symptom15</p>
+                <p><input class="text" type ="text" name ="symptom15"/></p>
+                <p>symptom16</p>
+                <p><input class="text" type ="text" name ="symptom16"/></p>
+                <p>symptom17</p>
+                <p><input class="text" type ="text" name ="symptom17"/></p>
+                </div>
+                
+            </div>
+                <p><input class="submit" type ="submit" value ="submit"/></p>
+        
+
+
+        <h2 class="output"><b>{{v}}</b><br><b>{{w}}</b><br><b>{{x}}</b><br><b>{{y}}</b><br><b>{{z}}</b></h2>    
+    </form>
+</div>
+</body>
+</html>
